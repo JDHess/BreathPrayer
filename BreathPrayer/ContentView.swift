@@ -105,20 +105,32 @@ struct FeaturedExerciseRow: View {
                         
                     }
                     
-                    //MARK: Jeremiah
                     
-                    //MARK: Lamentations
-                    
-                    //MARK: Zephania
-                    
-                    //MARK: Matthew
-                    
-                    //MARK: Mark
-                    
-                    //MARK: Romans
                     
                     Group {
                         Isaiah41104110()
+                        Jeremiah29112911()
+                        Lamentations32223()
+                        Zephaniah317317()
+                        ScrollView (.horizontal, showsIndicators: false){
+                            HStack(spacing: 24){
+                                Matthew6868()
+                                Matthew11281128()
+                            }
+                        }
+                        
+                        ScrollView (.horizontal, showsIndicators: false){
+                            HStack(spacing: 24){
+                                Mark924924()
+                                Mark10271027()
+                            }
+                        }
+                        ScrollView (.horizontal, showsIndicators: false){
+                            HStack(spacing: 24){
+                                Romans83839()
+                                Romans15131513()
+                            }
+                        }
                         ScrollView (.horizontal, showsIndicators: false){
                             HStack(spacing: 24){
                                 Chronicles25757()
@@ -352,6 +364,218 @@ struct Isaiah41104110: View {
     }
 }
 
+//MARK: Jeremiah
+struct Jeremiah29112911: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Jeremiah 29:11").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+
+//MARK: Lamentations
+struct Lamentations32223: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Lamentations 3:22-23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+//MARK: Zephaniah
+struct Zephaniah317317: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Zephaniah 3:17").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+//MARK: Matthew
+struct Matthew6868: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Matthew 6:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+struct Matthew11281128: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Matthew 11:28").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+
+//MARK: Mark
+struct Mark924924: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Mark 9:24").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+struct Mark10271027: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Mark 10:27").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+//MARK: Romans
+struct Romans83839: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Romans 8:38-39").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+struct Romans15131513: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Romans 15:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
 
 
 //MARK: 2 Chronicles
@@ -362,7 +586,7 @@ struct Chronicles25757: View {
         VStack{
             Text("2 Chronicles 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
+        Text("Time")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
@@ -384,7 +608,7 @@ struct Chronicles212910: View {
         VStack{
             Text("2 Chronicles 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
+        Text("Time")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
@@ -406,7 +630,7 @@ struct Chronicles2309309: View {
         VStack{
             Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
+        Text("Time")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
