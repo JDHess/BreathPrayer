@@ -108,6 +108,7 @@ struct FeaturedExerciseRow: View {
                 }
                 Divider()
                 Text("*Based on scripture").foregroundColor(.white)
+                
                 VStack(spacing: 16){
                     Divider()
                     Spacer()
@@ -123,8 +124,12 @@ struct FeaturedExerciseRow: View {
                 }.background(.white)
                 VStack{
                     Spacer()
+                    Text("Currently adding more BreathPrayers.").foregroundColor(.white)
+                    Text(" Update regularly for latest content.").foregroundColor(.white)
+                    Spacer()
                     Text("©JDHessWebDevelopment 2023").foregroundColor(.white)
                     Spacer()
+                    
                 }
             }
         }
