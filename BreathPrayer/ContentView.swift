@@ -16,9 +16,10 @@ struct ContentView: View {
             Header()
             AdView().frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 50)
             
-            FeaturedExerciseRow()
+            FeaturedExerciseRow().background(.teal)
             Spacer()
-        }.background(.teal)
+            Footer()
+        }
     }
 }
 
@@ -82,6 +83,7 @@ struct FeaturedExerciseRow: View {
                 ScrollView (.horizontal, showsIndicators: false){
                     HStack(spacing: 24){
                         Notes()
+                        Brought()
                     }
                 }
                 
@@ -106,31 +108,55 @@ struct FeaturedExerciseRow: View {
                     }
                 
                 }
-                Divider()
-                Text("*Based on scripture").foregroundColor(.white)
+                //MARK: Jeremiah
                 
-                VStack(spacing: 16){
-                    Divider()
-                    Spacer()
-                    Text("Brought to you by:").foregroundColor(.black)
-                    Text("@MindfulBrushStrokes").foregroundColor(.black)
-                    Link("JDHessWebDevelopment.com", destination: URL(string: "https://jdhesswebdevelopment.com/")!)
-                    //MARK: Other acknowledgements
-                    
-                    
-                    Spacer()
-                    Divider()
-                    
-                }.background(.white)
-                VStack{
-                    Spacer()
-                    Text("Currently adding more BreathPrayers.").foregroundColor(.white)
-                    Text(" Update regularly for latest content.").foregroundColor(.white)
-                    Spacer()
-                    Text("©JDHessWebDevelopment 2023").foregroundColor(.white)
-                    Spacer()
-                    
+                //MARK: Lamentations
+                
+                //MARK: Zephania
+                
+                //MARK: Matthew
+                
+                //MARK: Mark
+                
+                //MARK: Romans
+                
+                //MARK: 2 Chronicles
+                
+                //MARK: Philipians
+                
+                //MARK: Thessalonians
+                
+
+                ScrollView (.horizontal, showsIndicators: false){
+                    HStack(spacing: 24){
+                        Timothy221717()
+                    }
+                
                 }
+                
+                ScrollView (.horizontal, showsIndicators: false){
+                    HStack(spacing: 24){
+                        Hebrews10231023()
+                    }
+                
+                }
+                ScrollView (.horizontal, showsIndicators: false){
+                    HStack(spacing: 24){
+                        Peter5757()
+                    }
+                
+                }
+                ScrollView (.horizontal, showsIndicators: false){
+                    HStack(spacing: 24){
+                        John418418()
+                        
+                    }
+                
+                }
+                Divider()
+                
+                    
+               
             }
         }
     }
@@ -172,6 +198,24 @@ struct Notes: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+struct Brought: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Brought to you by:").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        
+
+            Link("JDHessWebDevelopment.com     ", destination: URL(string: "https://jdhesswebdevelopment.com/")!).font(.subheadline).padding(.top, 4).padding(.horizontal, 16)
+            Text("MindfulBrushStrokes")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
         }.background(Color.white).frame(width: 300, height: 150)
         
     }
@@ -311,6 +355,110 @@ struct Isaiah41104110: View {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
         }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+//MARK: 2 Timothy
+struct Timothy221717: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("2 Timothy  1:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+//MARK: Hebrews
+struct Hebrews10231023: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Hebrews  10:23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+//MARK: 1 Peter
+struct Peter5757: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("1 Peter  5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+//MARK: 1 John
+struct John418418: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("1 John  4:18").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+struct Footer: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Link("©JDHessWebDevelopment", destination: URL(string: "https://jdhesswebdevelopment.com/")!)
+        }
         
     }
 }
