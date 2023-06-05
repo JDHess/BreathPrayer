@@ -74,91 +74,83 @@ struct Header: View {
 
 //MARK: Struct Scroll Section
 struct FeaturedExerciseRow: View {
+    let columns = [
+        GridItem(.adaptive(minimum: 80, maximum: 120))
+    ]
     var body: some View {
-        ScrollView (.vertical, showsIndicators: false){
-            VStack(spacing: 2){
-                
-                Intro()
-                
-                ScrollView (.horizontal, showsIndicators: false){
-                    HStack(spacing: 24){
-                        Notes()
-                        Brought()
-                    }
-                }
-                
-                ScrollView (.horizontal, showsIndicators: false){
-                    HStack(spacing: 24){
+        
+        ScrollView {
+            LazyVStack {
+                ForEach(1...100, id: \.self) { value in
+                    Group {
+                        Intro()
+                        
+                        ScrollView (.horizontal, showsIndicators: false){
+                            HStack(spacing: 24){
+                                Notes()
+                                Brought()
+                            }
+                        }
+                        
                         Joshua1919()
                     }
-                }
-                ScrollView (.horizontal, showsIndicators: false){
-                    HStack(spacing: 24){
-                        Psalm3333()
-                        Psalm3535()
-                        Psalm4848()
-                        Psalm710710()
-                        Psalm1689()
-                    }
-                
-                }
-                ScrollView (.horizontal, showsIndicators: false){
-                    HStack(spacing: 24){
-                        Isaiah41104110()
-                    }
-                
-                }
-                //MARK: Jeremiah
-                
-                //MARK: Lamentations
-                
-                //MARK: Zephania
-                
-                //MARK: Matthew
-                
-                //MARK: Mark
-                
-                //MARK: Romans
-                
-                //MARK: 2 Chronicles
-                
-                //MARK: Philipians
-                
-                //MARK: Thessalonians
-                
-
-                ScrollView (.horizontal, showsIndicators: false){
-                    HStack(spacing: 24){
-                        Timothy221717()
-                    }
-                
-                }
-                
-                ScrollView (.horizontal, showsIndicators: false){
-                    HStack(spacing: 24){
-                        Hebrews10231023()
-                    }
-                
-                }
-                ScrollView (.horizontal, showsIndicators: false){
-                    HStack(spacing: 24){
-                        Peter5757()
-                    }
-                
-                }
-                ScrollView (.horizontal, showsIndicators: false){
-                    HStack(spacing: 24){
-                        John418418()
+                    ScrollView (.horizontal, showsIndicators: false){
+                        HStack(spacing: 24){
+                            Psalm3333()
+                            Psalm3535()
+                            Psalm4848()
+                            Psalm710710()
+                            Psalm1689()
+                        }
                         
                     }
-                
-                }
-                Divider()
-                
                     
-               
+                    //MARK: Jeremiah
+                    
+                    //MARK: Lamentations
+                    
+                    //MARK: Zephania
+                    
+                    //MARK: Matthew
+                    
+                    //MARK: Mark
+                    
+                    //MARK: Romans
+                    
+                    Group {
+                        Isaiah41104110()
+                        ScrollView (.horizontal, showsIndicators: false){
+                            HStack(spacing: 24){
+                                Chronicles25757()
+                                Chronicles212910()
+                                Chronicles2309309()
+                                
+                            }
+                        }
+                    }
+                    
+                    Group {
+                        John418418()
+                        ScrollView (.horizontal, showsIndicators: false){
+                            HStack(spacing: 24){
+                                Philippians47471()
+                                Philippians47472()
+                                Philippians4848()
+                                Philippians413413()
+                            }
+                            
+                        }
+                        
+                        Thessalonians223333()
+                        Timothy221717()
+                        Hebrews10231023()
+                        Peter5757()
+                        John418418()
+                    }
+                }
             }
         }
+        .frame(height:600)
     }
 }
 //MARK: Struct Info Section
@@ -337,6 +329,7 @@ struct Psalm1689: View {
     }
 }
 
+//MARK: Isaiah
 struct Isaiah41104110: View {
     @State var audioPlayer: AVAudioPlayer!
     var body: some View{
@@ -350,6 +343,186 @@ struct Isaiah41104110: View {
             Button {
                 //MARK: Add the meditation player screen
                 playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
+
+//MARK: 2 Chronicles
+struct Chronicles25757: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("2 Chronicles 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time: 2m 8s")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+struct Chronicles212910: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("2 Chronicles 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time: 2m 8s")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+struct Chronicles2309309: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time: 2m 8s")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Isaiah41104110", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+//MARK: Philippians
+struct Philippians47471: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Philippians  4:7 (1/2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+struct Philippians47472: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Philippians  4:7 (2/2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+struct Philippians4848: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Philippians  4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+struct Philippians413413: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("Philippians  4:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+//MARK: 2 Thessalonians
+struct Thessalonians223333: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("2 Thessalonians  3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            
+        Text("Time")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Joshua1919", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
