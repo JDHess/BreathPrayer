@@ -190,7 +190,7 @@ struct Notes: View {
         
         VStack{
             Spacer()
-            Text("App Instructions").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("App Instructions").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
             Button {
@@ -211,7 +211,7 @@ struct Brought: View {
         
         VStack{
             Spacer()
-            Text("Brought to you by:").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Brought to you by:").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -230,7 +230,7 @@ struct Joshua1919: View {
         
         VStack{
             Spacer()
-            Text("Joshua 1:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Joshua 1:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -249,7 +249,7 @@ struct Psalm3333: View {
     var body: some View{
         VStack{
             Spacer()
-            Text("Psalm 3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Psalm 3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -268,7 +268,7 @@ struct Psalm3535: View {
     var body: some View{
         VStack{
             Spacer()
-            Text("Psalm 3:5").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Psalm 3:5").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -287,7 +287,7 @@ struct Psalm4848: View {
     var body: some View{
         VStack{
             Spacer()
-            Text("Psalm 4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Psalm 4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
             Button {
@@ -305,7 +305,7 @@ struct Psalm710710: View {
     var body: some View{
         VStack{
             Spacer()
-            Text("Psalm 7:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Psalm 7:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -324,7 +324,7 @@ struct Psalm1689: View {
     var body: some View{
         VStack{
             Spacer()
-            Text("Psalm 16:8-9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Psalm 16:8-9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -346,7 +346,7 @@ struct Isaiah41104110: View {
         
         VStack{
             Spacer()
-            Text("Isaiah 41:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Isaiah 41:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -369,7 +369,7 @@ struct Jeremiah29112911: View {
         
         VStack{
             Spacer()
-            Text("Jeremiah 29:11").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Jeremiah 29:11").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
             Button {
@@ -393,7 +393,7 @@ struct Lamentations32223: View {
         
         VStack{
             Spacer()
-            Text("Lamentations 3:22-23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Lamentations 3:22-23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -417,7 +417,7 @@ struct Zephaniah317317: View {
         
         VStack{
             Spacer()
-            Text("Zephaniah 3:17").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Zephaniah 3:17").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -440,7 +440,7 @@ struct Matthew6868: View {
         
         VStack{
             Spacer()
-            Text("Matthew 6:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Matthew 6:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
             Button {
@@ -462,7 +462,7 @@ struct Matthew11281128: View {
         
         VStack{
             Spacer()
-            Text("Matthew 11:28").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Matthew 11:28").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -487,7 +487,7 @@ struct Mark924924: View {
         
         VStack{
             Spacer()
-            Text("Mark 9:24").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Mark 9:24").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -510,7 +510,7 @@ struct Mark10271027: View {
         
         VStack{
             Spacer()
-            Text("Mark 10:27").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Mark 10:27").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
             Button {
@@ -533,7 +533,7 @@ struct Romans83839: View {
         
         VStack{
             Spacer()
-            Text("Romans 8:38-39").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Romans 8:38-39").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -556,7 +556,7 @@ struct Romans15131513: View {
         
         VStack{
             Spacer()
-            Text("Romans 15:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Romans 15:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -580,7 +580,7 @@ struct Chronicles25757: View {
         
         VStack{
             Spacer()
-            Text("2 Chronicles 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("2 Chronicles 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -602,7 +602,7 @@ struct Chronicles212910: View {
         
         VStack{
             Spacer()
-            Text("2 Chronicles 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("2 Chronicles 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -624,7 +624,7 @@ struct Chronicles2309309: View {
         
         VStack{
             Spacer()
-            Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -647,7 +647,7 @@ struct Philippians47471: View {
         
         VStack{
             Spacer()
-            Text("Philippians  4:7 (Version 1)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Philippians  4:7 (Version 1)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -669,7 +669,7 @@ struct Philippians47472: View {
         
         VStack{
             Spacer()
-            Text("Philippians  4:7 (Version 2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Philippians  4:7 (Version 2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -691,7 +691,7 @@ struct Philippians4848: View {
         
         VStack{
             Spacer()
-            Text("Philippians  4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Philippians  4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -712,7 +712,7 @@ struct Philippians413413: View {
         
         VStack{
             Spacer()
-            Text("Philippians  4:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Philippians  4:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -735,7 +735,7 @@ struct Thessalonians223333: View {
         
         VStack{
             Spacer()
-            Text("2 Thessalonians  3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("2 Thessalonians  3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
             Button {
@@ -757,7 +757,7 @@ struct Timothy221717: View {
         
         VStack{
             Spacer()
-            Text("2 Timothy  1:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("2 Timothy  1:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
@@ -781,7 +781,7 @@ struct Hebrews10231023: View {
         
         VStack{
             Spacer()
-            Text("Hebrews  10:23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Hebrews  10:23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
             Button {
                 //MARK: Add the meditation player screen
@@ -801,7 +801,7 @@ struct Peter5757: View {
         
         VStack{
             Spacer()
-            Text("1 Peter  5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("1 Peter  5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
             Button {
@@ -825,7 +825,7 @@ struct John418418: View {
         VStack{
             Spacer()
             
-            Text("1 John  4:18").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("1 John  4:18").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
 
