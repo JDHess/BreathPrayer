@@ -372,12 +372,12 @@ struct Jeremiah29112911: View {
         VStack{
             Text("Jeremiah 29:11").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Jeremiah29112911", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -397,12 +397,12 @@ struct Lamentations32223: View {
         VStack{
             Text("Lamentations 3:22-23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Lamentations32223", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -421,12 +421,12 @@ struct Zephaniah317317: View {
         VStack{
             Text("Zephaniah 3:17").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Zephaniah317317", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -854,6 +854,8 @@ struct Footer: View {
     var body: some View{
         
         VStack{
+            Link("Report inappropriate ads", destination: URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSdwJDIO9H_WYBh3irsJgVFJnja6UEOJuV61HJTgkGtIatp3qg/viewform?usp=sf_link")!)
+            Spacer()
             Link("©JDHessWebDevelopment", destination: URL(string: "https://jdhesswebdevelopment.com/")!)
         }
         

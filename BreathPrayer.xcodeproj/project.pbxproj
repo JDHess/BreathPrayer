@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E03E51D2A2EBA9900DBDE62 /* Jeremiah29112911.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E51C2A2EBA9900DBDE62 /* Jeremiah29112911.m4a */; };
+		6E03E51E2A2EBA9900DBDE62 /* Jeremiah29112911.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E51C2A2EBA9900DBDE62 /* Jeremiah29112911.m4a */; };
+		6E03E51F2A2EBA9900DBDE62 /* Jeremiah29112911.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E51C2A2EBA9900DBDE62 /* Jeremiah29112911.m4a */; };
+		6E03E5212A2EBCBF00DBDE62 /* Lamentations32223.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E5202A2EBCBF00DBDE62 /* Lamentations32223.m4a */; };
+		6E03E5222A2EBCBF00DBDE62 /* Lamentations32223.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E5202A2EBCBF00DBDE62 /* Lamentations32223.m4a */; };
+		6E03E5232A2EBCBF00DBDE62 /* Lamentations32223.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E5202A2EBCBF00DBDE62 /* Lamentations32223.m4a */; };
+		6E03E5252A2EBE0700DBDE62 /* Zephaniah317317.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E5242A2EBE0700DBDE62 /* Zephaniah317317.m4a */; };
+		6E03E5262A2EBE0700DBDE62 /* Zephaniah317317.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E5242A2EBE0700DBDE62 /* Zephaniah317317.m4a */; };
+		6E03E5272A2EBE0700DBDE62 /* Zephaniah317317.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E5242A2EBE0700DBDE62 /* Zephaniah317317.m4a */; };
 		6EB80F9E2A2AEADA00F7FD61 /* BreathPrayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB80F9D2A2AEADA00F7FD61 /* BreathPrayerApp.swift */; };
 		6EB80FA02A2AEADA00F7FD61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB80F9F2A2AEADA00F7FD61 /* ContentView.swift */; };
 		6EB80FA22A2AEADE00F7FD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB80FA12A2AEADE00F7FD61 /* Assets.xcassets */; };
@@ -63,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E03E51C2A2EBA9900DBDE62 /* Jeremiah29112911.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jeremiah29112911.m4a; sourceTree = "<group>"; };
+		6E03E5202A2EBCBF00DBDE62 /* Lamentations32223.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lamentations32223.m4a; sourceTree = "<group>"; };
+		6E03E5242A2EBE0700DBDE62 /* Zephaniah317317.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zephaniah317317.m4a; sourceTree = "<group>"; };
 		6EB80F9A2A2AEADA00F7FD61 /* BreathPrayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathPrayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB80F9D2A2AEADA00F7FD61 /* BreathPrayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathPrayerApp.swift; sourceTree = "<group>"; };
 		6EB80F9F2A2AEADA00F7FD61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,12 +189,15 @@
 			children = (
 				6EB810192A2E501400F7FD61 /* Infointro.m4a */,
 				6EB810152A2E501400F7FD61 /* Isaiah41104110.m4a */,
+				6E03E51C2A2EBA9900DBDE62 /* Jeremiah29112911.m4a */,
 				6EB810172A2E501400F7FD61 /* Joshua1919.m4a */,
 				6EB810122A2E501400F7FD61 /* Psalm1689.m4a */,
 				6EB810142A2E501400F7FD61 /* Psalm3333.m4a */,
 				6EB810162A2E501400F7FD61 /* Psalm3535.m4a */,
 				6EB810132A2E501400F7FD61 /* Psalm4848.m4a */,
 				6EB810182A2E501400F7FD61 /* Psalm710710.m4a */,
+				6E03E5242A2EBE0700DBDE62 /* Zephaniah317317.m4a */,
+				6E03E5202A2EBCBF00DBDE62 /* Lamentations32223.m4a */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -297,16 +312,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E03E5252A2EBE0700DBDE62 /* Zephaniah317317.m4a in Resources */,
 				6EB80FA52A2AEADE00F7FD61 /* Preview Assets.xcassets in Resources */,
 				6EB810232A2E501400F7FD61 /* Isaiah41104110.m4a in Resources */,
 				6EB8101A2A2E501400F7FD61 /* Psalm1689.m4a in Resources */,
 				6EB8102F2A2E501400F7FD61 /* Infointro.m4a in Resources */,
+				6E03E5212A2EBCBF00DBDE62 /* Lamentations32223.m4a in Resources */,
 				6EB810202A2E501400F7FD61 /* Psalm3333.m4a in Resources */,
 				6EB810292A2E501400F7FD61 /* Joshua1919.m4a in Resources */,
 				6EB8101D2A2E501400F7FD61 /* Psalm4848.m4a in Resources */,
 				6EB810262A2E501400F7FD61 /* Psalm3535.m4a in Resources */,
 				6EB80FA22A2AEADE00F7FD61 /* Assets.xcassets in Resources */,
 				6EB8102C2A2E501400F7FD61 /* Psalm710710.m4a in Resources */,
+				6E03E51D2A2EBA9900DBDE62 /* Jeremiah29112911.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +334,11 @@
 			files = (
 				6EB8102A2A2E501400F7FD61 /* Joshua1919.m4a in Resources */,
 				6EB810212A2E501400F7FD61 /* Psalm3333.m4a in Resources */,
+				6E03E5262A2EBE0700DBDE62 /* Zephaniah317317.m4a in Resources */,
+				6E03E5222A2EBCBF00DBDE62 /* Lamentations32223.m4a in Resources */,
 				6EB810242A2E501400F7FD61 /* Isaiah41104110.m4a in Resources */,
 				6EB8101E2A2E501400F7FD61 /* Psalm4848.m4a in Resources */,
+				6E03E51E2A2EBA9900DBDE62 /* Jeremiah29112911.m4a in Resources */,
 				6EB810272A2E501400F7FD61 /* Psalm3535.m4a in Resources */,
 				6EB810302A2E501400F7FD61 /* Infointro.m4a in Resources */,
 				6EB8101B2A2E501400F7FD61 /* Psalm1689.m4a in Resources */,
@@ -331,8 +352,11 @@
 			files = (
 				6EB8102B2A2E501400F7FD61 /* Joshua1919.m4a in Resources */,
 				6EB810222A2E501400F7FD61 /* Psalm3333.m4a in Resources */,
+				6E03E5272A2EBE0700DBDE62 /* Zephaniah317317.m4a in Resources */,
+				6E03E5232A2EBCBF00DBDE62 /* Lamentations32223.m4a in Resources */,
 				6EB810252A2E501400F7FD61 /* Isaiah41104110.m4a in Resources */,
 				6EB8101F2A2E501400F7FD61 /* Psalm4848.m4a in Resources */,
+				6E03E51F2A2EBA9900DBDE62 /* Jeremiah29112911.m4a in Resources */,
 				6EB810282A2E501400F7FD61 /* Psalm3535.m4a in Resources */,
 				6EB810312A2E501400F7FD61 /* Infointro.m4a in Resources */,
 				6EB8101C2A2E501400F7FD61 /* Psalm1689.m4a in Resources */,
