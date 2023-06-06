@@ -444,12 +444,12 @@ struct Matthew6868: View {
         VStack{
             Text("Matthew 6:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Matthew6868", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -467,12 +467,12 @@ struct Matthew11281128: View {
         VStack{
             Text("Matthew 11:28").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Matthew11281128", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
