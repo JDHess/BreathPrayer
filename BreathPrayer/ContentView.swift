@@ -696,12 +696,12 @@ struct Philippians4848: View {
         VStack{
             Text("Philippians  4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "Philippians4848", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -717,12 +717,12 @@ struct Philippians413413: View {
         VStack{
             Text("Philippians  4:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "Philippians413413", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -740,12 +740,12 @@ struct Thessalonians223333: View {
         VStack{
             Text("2 Thessalonians  3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "Thessalonians223333", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -763,12 +763,12 @@ struct Timothy221717: View {
         VStack{
             Text("2 Timothy  1:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "Timothy221717", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -787,12 +787,12 @@ struct Hebrews10231023: View {
         VStack{
             Text("Hebrews  10:23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "Hebrews10231023", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -809,12 +809,12 @@ struct Peter5757: View {
         VStack{
             Text("1 Peter  5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "Peter5757", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -833,12 +833,12 @@ struct John418418: View {
         VStack{
             Text("1 John  4:18").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "John418418", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
