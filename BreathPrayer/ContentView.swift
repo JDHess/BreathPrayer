@@ -142,7 +142,6 @@ struct FeaturedExerciseRow: View {
                     }
                     
                     Group {
-                        John418418()
                         ScrollView (.horizontal, showsIndicators: false){
                             HStack(spacing: 24){
                                 Philippians47471()
@@ -492,12 +491,12 @@ struct Mark924924: View {
         VStack{
             Text("Mark 9:24").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Mark924924", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -515,12 +514,12 @@ struct Mark10271027: View {
         VStack{
             Text("Mark 10:27").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Mark10271027", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -539,12 +538,12 @@ struct Romans83839: View {
         VStack{
             Text("Romans 8:38-39").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Romans83839", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -562,12 +561,12 @@ struct Romans15131513: View {
         VStack{
             Text("Romans 15:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Romans15131513", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -586,12 +585,12 @@ struct Chronicles25757: View {
         VStack{
             Text("2 Chronicles 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Chronicles25757", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -608,12 +607,12 @@ struct Chronicles212910: View {
         VStack{
             Text("2 Chronicles 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Chronicles212910", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -630,12 +629,12 @@ struct Chronicles2309309: View {
         VStack{
             Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Isaiah41104110", type: "m4a")
+                playSound(sound: "Chronicles2309309", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -651,14 +650,14 @@ struct Philippians47471: View {
     var body: some View{
         
         VStack{
-            Text("Philippians  4:7 (1/2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Philippians  4:7 (Version 1)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "Philippians47471", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
@@ -673,14 +672,14 @@ struct Philippians47472: View {
     var body: some View{
         
         VStack{
-            Text("Philippians  4:7 (2/2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
+            Text("Philippians  4:7 (Version 2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time")
+        Text("Time: 2m 8s")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Joshua1919", type: "m4a")
+                playSound(sound: "Philippians47472", type: "m4a")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
