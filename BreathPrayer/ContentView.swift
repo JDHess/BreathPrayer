@@ -189,10 +189,9 @@ struct Notes: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("App Instructions").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 23s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
@@ -211,6 +210,7 @@ struct Brought: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Brought to you by:").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
         
@@ -229,10 +229,10 @@ struct Joshua1919: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Joshua 1:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -248,10 +248,10 @@ struct Joshua1919: View {
 struct Psalm3333: View {
     var body: some View{
         VStack{
+            Spacer()
             Text("Psalm 3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -267,10 +267,10 @@ struct Psalm3333: View {
 struct Psalm3535: View {
     var body: some View{
         VStack{
+            Spacer()
             Text("Psalm 3:5").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -286,11 +286,10 @@ struct Psalm3535: View {
 struct Psalm4848: View {
     var body: some View{
         VStack{
+            Spacer()
             Text("Psalm 4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
-
+        
             Button {
                 //MARK: Add the meditation player screen
                 playSound(sound: "Psalm4848", type: "m4a")
@@ -305,10 +304,10 @@ struct Psalm4848: View {
 struct Psalm710710: View {
     var body: some View{
         VStack{
+            Spacer()
             Text("Psalm 7:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -324,10 +323,10 @@ struct Psalm710710: View {
 struct Psalm1689: View {
     var body: some View{
         VStack{
+            Spacer()
             Text("Psalm 16:8-9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -346,10 +345,10 @@ struct Isaiah41104110: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Isaiah 41:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -369,10 +368,9 @@ struct Jeremiah29112911: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Jeremiah 29:11").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
@@ -394,10 +392,10 @@ struct Lamentations32223: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Lamentations 3:22-23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -418,10 +416,10 @@ struct Zephaniah317317: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Zephaniah 3:17").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -441,10 +439,9 @@ struct Matthew6868: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Matthew 6:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
@@ -464,10 +461,10 @@ struct Matthew11281128: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Matthew 11:28").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -489,10 +486,10 @@ struct Mark924924: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Mark 9:24").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -512,11 +509,10 @@ struct Mark10271027: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Mark 10:27").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
-
+        
             Button {
                 //MARK: Add the meditation player screen
                 playSound(sound: "Mark10271027", type: "m4a")
@@ -536,10 +532,10 @@ struct Romans83839: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Romans 8:38-39").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -559,10 +555,10 @@ struct Romans15131513: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Romans 15:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -583,10 +579,10 @@ struct Chronicles25757: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("2 Chronicles 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -605,10 +601,10 @@ struct Chronicles212910: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("2 Chronicles 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -627,10 +623,10 @@ struct Chronicles2309309: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -650,10 +646,10 @@ struct Philippians47471: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Philippians  4:7 (Version 1)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -672,10 +668,10 @@ struct Philippians47472: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Philippians  4:7 (Version 2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -694,10 +690,10 @@ struct Philippians4848: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Philippians  4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -715,10 +711,10 @@ struct Philippians413413: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Philippians  4:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -738,10 +734,9 @@ struct Thessalonians223333: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("2 Thessalonians  3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
@@ -761,10 +756,10 @@ struct Timothy221717: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("2 Timothy  1:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
@@ -785,11 +780,9 @@ struct Hebrews10231023: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("Hebrews  10:23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
-
             Button {
                 //MARK: Add the meditation player screen
                 playSound(sound: "Hebrews10231023", type: "m4a")
@@ -807,10 +800,9 @@ struct Peter5757: View {
     var body: some View{
         
         VStack{
+            Spacer()
             Text("1 Peter  5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
 
             Button {
                 //MARK: Add the meditation player screen
@@ -831,10 +823,11 @@ struct John418418: View {
     var body: some View{
         
         VStack{
+            Spacer()
+            
             Text("1 John  4:18").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             
-        Text("Time: 2m 8s")
-                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+        
 
             Button {
                 //MARK: Add the meditation player screen
