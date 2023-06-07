@@ -16,7 +16,7 @@ struct ContentView: View {
             Header()
             AdView().frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 50)
             
-            FeaturedExerciseRow().background(.teal)
+            FeaturedExerciseRow().background(Image("Beach").resizable().aspectRatio(contentMode: .fill))
             Spacer()
             Footer()
         }
@@ -89,6 +89,7 @@ struct FeaturedExerciseRow: View {
                             HStack(spacing: 24){
                                 Notes()
                                 Brought()
+                                Report()
                             }
                         }
                         
@@ -168,7 +169,6 @@ struct FeaturedExerciseRow: View {
 struct Intro: View {
     var body: some View{
         VStack{
-            Image("MindfulBrushStrokes").resizable().aspectRatio(contentMode: .fit)
             Text("Breath Prayer").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             Text("~ Breathe in Scritptue ~").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
         Text("Breath in and out")
@@ -189,7 +189,6 @@ struct Notes: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("App Instructions").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
@@ -206,21 +205,37 @@ struct Notes: View {
 }
 
 struct Brought: View {
-    @State var audioPlayer: AVAudioPlayer!
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Brought to you by:").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
-            
-        
-
-            Link("JDHessWebDevelopment.com     ", destination: URL(string: "https://jdhesswebdevelopment.com/")!).font(.subheadline).padding(.top, 4).padding(.horizontal, 16)
-            Text("MindfulBrushStrokes")
-                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
-            
+            Button(action: {
+                
+                if let yourURL = URL(string: "https://jdhesswebdevelopment.com/") {
+                    UIApplication.shared.open(yourURL, options: [:], completionHandler: nil)
+                }
+                
+            }) {
+                Text("JDHessWebDevelopment")
+            }.font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
         }.background(Color.white).frame(width: 300, height: 150)
+    }
+}
+struct Report: View {
+    var body: some View{
         
+        VStack{
+            Text("Inappropriate Ads?").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Button(action: {
+                
+                if let yourURL = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSdwJDIO9H_WYBh3irsJgVFJnja6UEOJuV61HJTgkGtIatp3qg/viewform?usp=sf_link") {
+                    UIApplication.shared.open(yourURL, options: [:], completionHandler: nil)
+                }
+                
+            }) {
+                Text("Report Them!")
+            }.font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+        }.background(Color.white).frame(width: 300, height: 150)
     }
 }
 //MARK: Struct Sounds and Scripture
@@ -229,7 +244,6 @@ struct Joshua1919: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Joshua 1:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -248,7 +262,6 @@ struct Joshua1919: View {
 struct Psalm3333: View {
     var body: some View{
         VStack{
-            Spacer()
             Text("Psalm 3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -267,7 +280,6 @@ struct Psalm3333: View {
 struct Psalm3535: View {
     var body: some View{
         VStack{
-            Spacer()
             Text("Psalm 3:5").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -286,7 +298,6 @@ struct Psalm3535: View {
 struct Psalm4848: View {
     var body: some View{
         VStack{
-            Spacer()
             Text("Psalm 4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -304,7 +315,6 @@ struct Psalm4848: View {
 struct Psalm710710: View {
     var body: some View{
         VStack{
-            Spacer()
             Text("Psalm 7:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -323,7 +333,6 @@ struct Psalm710710: View {
 struct Psalm1689: View {
     var body: some View{
         VStack{
-            Spacer()
             Text("Psalm 16:8-9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -345,7 +354,6 @@ struct Isaiah41104110: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Isaiah 41:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -368,7 +376,6 @@ struct Jeremiah29112911: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Jeremiah 29:11").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
@@ -392,7 +399,6 @@ struct Lamentations32223: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Lamentations 3:22-23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -416,7 +422,6 @@ struct Zephaniah317317: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Zephaniah 3:17").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -439,7 +444,6 @@ struct Matthew6868: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Matthew 6:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
@@ -461,7 +465,6 @@ struct Matthew11281128: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Matthew 11:28").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -486,7 +489,6 @@ struct Mark924924: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Mark 9:24").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -509,7 +511,6 @@ struct Mark10271027: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Mark 10:27").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -532,7 +533,6 @@ struct Romans83839: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Romans 8:38-39").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -555,7 +555,6 @@ struct Romans15131513: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Romans 15:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -579,7 +578,6 @@ struct Chronicles25757: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("2 Chronicles 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -601,7 +599,6 @@ struct Chronicles212910: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("2 Chronicles 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -623,7 +620,6 @@ struct Chronicles2309309: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -646,7 +642,6 @@ struct Philippians47471: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Philippians  4:7 (Version 1)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -668,7 +663,6 @@ struct Philippians47472: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Philippians  4:7 (Version 2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -690,7 +684,6 @@ struct Philippians4848: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Philippians  4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -711,7 +704,6 @@ struct Philippians413413: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Philippians  4:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -734,7 +726,6 @@ struct Thessalonians223333: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("2 Thessalonians  3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
@@ -756,7 +747,6 @@ struct Timothy221717: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("2 Timothy  1:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -780,7 +770,6 @@ struct Hebrews10231023: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("Hebrews  10:23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
             Button {
@@ -800,7 +789,6 @@ struct Peter5757: View {
     var body: some View{
         
         VStack{
-            Spacer()
             Text("1 Peter  5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
 
@@ -823,7 +811,6 @@ struct John418418: View {
     var body: some View{
         
         VStack{
-            Spacer()
             
             Text("1 John  4:18").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
@@ -845,11 +832,7 @@ struct Footer: View {
     @State var audioPlayer: AVAudioPlayer!
     var body: some View{
         
-        VStack{
-            Link("Report inappropriate ads", destination: URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSdwJDIO9H_WYBh3irsJgVFJnja6UEOJuV61HJTgkGtIatp3qg/viewform?usp=sf_link")!)
-            Spacer()
             Link("©JDHessWebDevelopment", destination: URL(string: "https://jdhesswebdevelopment.com/")!)
-        }
         
     }
 }
