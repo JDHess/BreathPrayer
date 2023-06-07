@@ -199,7 +199,7 @@ struct Notes: View {
                 playSound(sound: "Infointro", type: "m4a")
                 
             } label: {
-                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+                Label("Play", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
         }.background(Color.white).frame(width: 300, height: 150)
         
