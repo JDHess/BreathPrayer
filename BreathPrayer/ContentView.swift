@@ -171,7 +171,7 @@ struct Intro: View {
         VStack{
             Text("Breath Prayer").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
             Text("~ Breathe in Scritptue ~").font(.title2).fontWeight(.semibold).padding(.horizontal, 16)
-        Text("Breath in and out")
+        Text("Breathe in and out")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
             Text("Think of God's Word")
                     .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
