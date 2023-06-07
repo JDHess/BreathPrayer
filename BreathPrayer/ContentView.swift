@@ -18,6 +18,7 @@ struct ContentView: View {
             
             FeaturedExerciseRow().background(Image("Beach").resizable().aspectRatio(contentMode: .fill))
             Spacer()
+            
             Footer()
         }
     }
@@ -87,8 +88,7 @@ struct FeaturedExerciseRow: View {
                         
                         ScrollView (.horizontal, showsIndicators: false){
                             HStack(spacing: 24){
-                                Notes()
-                                Brought()
+                                    Notes()
                                 Report()
                             }
                         }
@@ -179,6 +179,8 @@ struct Intro: View {
                     .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
             Text("Memorize Scripture")
                 .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray).padding(.bottom)
+            Text("⬇︎ Scroll Down ⬇︎")
+                .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.black).padding(.bottom)
 
         }.background(Color.white).frame(width: 400, height: 400)
         
@@ -204,23 +206,7 @@ struct Notes: View {
     }
 }
 
-struct Brought: View {
-    var body: some View{
-        
-        VStack{
-            Text("Brought to you by:").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
-            Button(action: {
-                
-                if let yourURL = URL(string: "https://jdhesswebdevelopment.com/") {
-                    UIApplication.shared.open(yourURL, options: [:], completionHandler: nil)
-                }
-                
-            }) {
-                Text("JDHessWebDevelopment")
-            }.font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
-        }.background(Color.white).frame(width: 300, height: 150)
-    }
-}
+
 struct Report: View {
     var body: some View{
         
