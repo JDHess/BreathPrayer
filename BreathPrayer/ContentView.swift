@@ -15,8 +15,7 @@ struct ContentView: View {
         VStack(spacing: 0){
             Header()
             AdView().frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 50)
-            
-            FeaturedExerciseRow().background(Image("Beach").resizable().aspectRatio(contentMode: .fill))
+            ExerciseRow().background(Image("Beach").resizable().aspectRatio(contentMode: .fill))
             Spacer()
             
             Footer()
@@ -72,99 +71,73 @@ struct Header: View {
             .background(Color(.gray).edgesIgnoringSafeArea(.all))
     }
 }
-
-//MARK: Struct Scroll Section
-struct FeaturedExerciseRow: View {
-    let columns = [
-        GridItem(.adaptive(minimum: 80, maximum: 120))
-    ]
-    var body: some View {
+struct ExerciseRow: View {
+    var body: some View{
         
         ScrollView {
             LazyVStack {
-                ForEach(1...100, id: \.self) { value in
+                ForEach(1...1000, id: \.self) { value in
                     Group {
-                        Intro()
-                        
-                        ScrollView (.horizontal, showsIndicators: false){
-                            HStack(spacing: 24){
-                                    Notes()
-                                Report()
+                        Group{
+                            Intro()
+                            Notes()
+                            Report()
+                        }
+                        Group{
+                            Joshua1919()
+                            Group{
+                                Psalm3333()
+                                Psalm3535()
+                                Psalm4848()
+                                Psalm710710()
+                                Psalm1689()
+                            }
+                            Group {
+                                Isaiah41104110()
+                                Jeremiah29112911()
+                                Lamentations32223()
+                                Zephaniah317317()
+                                Group{
+                                    Matthew6868()
+                                    Matthew11281128()
+                                }
+                                Group{
+                                    Mark924924()
+                                    Mark10271027()
+                                }
+                            }
+                            Group{
+                                Group {
+                                    Romans83839()
+                                    Romans15131513()
+                                }
+                                Group {
+                                    Chronicles25757()
+                                    Chronicles212910()
+                                    Chronicles2309309()
+                                }
+                                Group{
+                                    Philippians47471()
+                                    Philippians47472()
+                                    Philippians4848()
+                                    Philippians413413()
+                                }
+                            }
+                            Group {
+                                Thessalonians223333()
+                                Timothy221717()
+                                Hebrews10231023()
+                                Peter5757()
+                                John418418()
                             }
                         }
-                        
-                        Joshua1919()
-                    }
-                    ScrollView (.horizontal, showsIndicators: false){
-                        HStack(spacing: 24){
-                            Psalm3333()
-                            Psalm3535()
-                            Psalm4848()
-                            Psalm710710()
-                            Psalm1689()
-                        }
-                        
-                    }
-                    
-                    
-                    
-                    Group {
-                        Isaiah41104110()
-                        Jeremiah29112911()
-                        Lamentations32223()
-                        Zephaniah317317()
-                        ScrollView (.horizontal, showsIndicators: false){
-                            HStack(spacing: 24){
-                                Matthew6868()
-                                Matthew11281128()
-                            }
-                        }
-                        
-                        ScrollView (.horizontal, showsIndicators: false){
-                            HStack(spacing: 24){
-                                Mark924924()
-                                Mark10271027()
-                            }
-                        }
-                        ScrollView (.horizontal, showsIndicators: false){
-                            HStack(spacing: 24){
-                                Romans83839()
-                                Romans15131513()
-                            }
-                        }
-                        ScrollView (.horizontal, showsIndicators: false){
-                            HStack(spacing: 24){
-                                Chronicles25757()
-                                Chronicles212910()
-                                Chronicles2309309()
-                                
-                            }
-                        }
-                    }
-                    
-                    Group {
-                        ScrollView (.horizontal, showsIndicators: false){
-                            HStack(spacing: 24){
-                                Philippians47471()
-                                Philippians47472()
-                                Philippians4848()
-                                Philippians413413()
-                            }
-                            
-                        }
-                        
-                        Thessalonians223333()
-                        Timothy221717()
-                        Hebrews10231023()
-                        Peter5757()
-                        John418418()
                     }
                 }
             }
         }
-        .frame(height:600)
     }
 }
+
 //MARK: Struct Info Section
 struct Intro: View {
     var body: some View{
