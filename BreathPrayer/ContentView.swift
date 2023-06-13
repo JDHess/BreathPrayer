@@ -85,6 +85,7 @@ struct ExerciseRow: View {
                         }
                         Group{
                             Joshua1919()
+                            Chronicles2309309()
                             Group{
                                 Psalm3333()
                                 Psalm3535()
@@ -112,9 +113,9 @@ struct ExerciseRow: View {
                                     Romans15131513()
                                 }
                                 Group {
-                                    //Chronicles25757()
-                                    //Chronicles212910()
-                                    Chronicles2309309()
+                                    Corinthians25757()
+                                    Corinthians212910()
+                                    
                                 }
                                 Group{
                                     Philippians47471()
@@ -203,8 +204,9 @@ struct Joshua1919: View {
     var body: some View{
         
         VStack{
-            Text("Joshua 1:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
+            
+            Text("Joshua 1:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
 //Done
             Button {
                 //MARK: Add the meditation player screen
@@ -217,9 +219,36 @@ struct Joshua1919: View {
         
     }
 }
+
+//MARK: 2 Chronicles
+
+
+struct Chronicles2309309: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            
+        
+//Done
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Chronicles2309309", type: "wav")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+
 struct Psalm3333: View {
     var body: some View{
         VStack{
+            
             Text("Psalm 3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
         
@@ -510,22 +539,40 @@ struct Romans15131513: View {
     }
 }
 
-
-//MARK: 2 Chronicles
-
-
-struct Chronicles2309309: View {
+//MARK: Corinthians
+struct Corinthians25757: View {
     @State var audioPlayer: AVAudioPlayer!
     var body: some View{
         
         VStack{
-            Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
             
-        
+            
+            Text("2 Corinthians 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
 //Done
             Button {
                 //MARK: Add the meditation player screen
-                playSound(sound: "Chronicles2309309", type: "wav")
+                playSound(sound: "Corinthians25757", type: "wav")
+                
+            } label: {
+                Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
+            }
+        }.background(Color.white).frame(width: 300, height: 150)
+        
+    }
+}
+
+struct Corinthians212910: View {
+    @State var audioPlayer: AVAudioPlayer!
+    var body: some View{
+        
+        VStack{
+            
+            
+            Text("2 Corinthians 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+//Done
+            Button {
+                //MARK: Add the meditation player screen
+                playSound(sound: "Corinthians212910", type: "wav")
                 
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
