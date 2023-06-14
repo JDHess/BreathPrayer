@@ -28,6 +28,69 @@
 		6E9CB9002A393D260072552C /* John418418.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB8FF2A393D260072552C /* John418418.wav */; };
 		6E9CB9012A393D260072552C /* John418418.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB8FF2A393D260072552C /* John418418.wav */; };
 		6E9CB9022A393D260072552C /* John418418.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB8FF2A393D260072552C /* John418418.wav */; };
+		6E9CB9042A393D5A0072552C /* Joshua1919.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9032A393D5A0072552C /* Joshua1919.wav */; };
+		6E9CB9052A393D5A0072552C /* Joshua1919.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9032A393D5A0072552C /* Joshua1919.wav */; };
+		6E9CB9062A393D5A0072552C /* Joshua1919.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9032A393D5A0072552C /* Joshua1919.wav */; };
+		6E9CB9082A393D690072552C /* Lamentations32223.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9072A393D690072552C /* Lamentations32223.wav */; };
+		6E9CB9092A393D690072552C /* Lamentations32223.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9072A393D690072552C /* Lamentations32223.wav */; };
+		6E9CB90A2A393D690072552C /* Lamentations32223.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9072A393D690072552C /* Lamentations32223.wav */; };
+		6E9CB90C2A393D7D0072552C /* Mark924924.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB90B2A393D7D0072552C /* Mark924924.wav */; };
+		6E9CB90D2A393D7D0072552C /* Mark924924.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB90B2A393D7D0072552C /* Mark924924.wav */; };
+		6E9CB90E2A393D7D0072552C /* Mark924924.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB90B2A393D7D0072552C /* Mark924924.wav */; };
+		6E9CB9102A393D900072552C /* Mark10271027.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB90F2A393D900072552C /* Mark10271027.wav */; };
+		6E9CB9112A393D900072552C /* Mark10271027.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB90F2A393D900072552C /* Mark10271027.wav */; };
+		6E9CB9122A393D900072552C /* Mark10271027.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB90F2A393D900072552C /* Mark10271027.wav */; };
+		6E9CB9142A393DA50072552C /* Matthew6868.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9132A393DA50072552C /* Matthew6868.wav */; };
+		6E9CB9152A393DA50072552C /* Matthew6868.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9132A393DA50072552C /* Matthew6868.wav */; };
+		6E9CB9162A393DA50072552C /* Matthew6868.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9132A393DA50072552C /* Matthew6868.wav */; };
+		6E9CB9182A393DB70072552C /* Matthew11281128.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9172A393DB70072552C /* Matthew11281128.wav */; };
+		6E9CB9192A393DB70072552C /* Matthew11281128.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9172A393DB70072552C /* Matthew11281128.wav */; };
+		6E9CB91A2A393DB70072552C /* Matthew11281128.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9172A393DB70072552C /* Matthew11281128.wav */; };
+		6E9CB91C2A393DCC0072552C /* Peter5757.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB91B2A393DCC0072552C /* Peter5757.wav */; };
+		6E9CB91D2A393DCC0072552C /* Peter5757.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB91B2A393DCC0072552C /* Peter5757.wav */; };
+		6E9CB91E2A393DCC0072552C /* Peter5757.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB91B2A393DCC0072552C /* Peter5757.wav */; };
+		6E9CB9202A393DDE0072552C /* Philippians4848.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB91F2A393DDE0072552C /* Philippians4848.wav */; };
+		6E9CB9212A393DDE0072552C /* Philippians4848.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB91F2A393DDE0072552C /* Philippians4848.wav */; };
+		6E9CB9222A393DDE0072552C /* Philippians4848.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB91F2A393DDE0072552C /* Philippians4848.wav */; };
+		6E9CB9242A393DED0072552C /* Philippians47471.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9232A393DED0072552C /* Philippians47471.wav */; };
+		6E9CB9252A393DED0072552C /* Philippians47471.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9232A393DED0072552C /* Philippians47471.wav */; };
+		6E9CB9262A393DED0072552C /* Philippians47471.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9232A393DED0072552C /* Philippians47471.wav */; };
+		6E9CB9282A393DFE0072552C /* Philippians47472.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9272A393DFE0072552C /* Philippians47472.wav */; };
+		6E9CB9292A393DFE0072552C /* Philippians47472.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9272A393DFE0072552C /* Philippians47472.wav */; };
+		6E9CB92A2A393DFE0072552C /* Philippians47472.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9272A393DFE0072552C /* Philippians47472.wav */; };
+		6E9CB92C2A393E0D0072552C /* Philippians413413.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB92B2A393E0D0072552C /* Philippians413413.wav */; };
+		6E9CB92D2A393E0D0072552C /* Philippians413413.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB92B2A393E0D0072552C /* Philippians413413.wav */; };
+		6E9CB92E2A393E0D0072552C /* Philippians413413.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB92B2A393E0D0072552C /* Philippians413413.wav */; };
+		6E9CB9302A393E1A0072552C /* Psalm1689.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB92F2A393E1A0072552C /* Psalm1689.wav */; };
+		6E9CB9312A393E1A0072552C /* Psalm1689.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB92F2A393E1A0072552C /* Psalm1689.wav */; };
+		6E9CB9322A393E1A0072552C /* Psalm1689.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB92F2A393E1A0072552C /* Psalm1689.wav */; };
+		6E9CB9342A393E270072552C /* Psalm3333.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9332A393E270072552C /* Psalm3333.wav */; };
+		6E9CB9352A393E270072552C /* Psalm3333.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9332A393E270072552C /* Psalm3333.wav */; };
+		6E9CB9362A393E270072552C /* Psalm3333.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9332A393E270072552C /* Psalm3333.wav */; };
+		6E9CB9382A393E340072552C /* Psalm3535.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9372A393E340072552C /* Psalm3535.wav */; };
+		6E9CB9392A393E340072552C /* Psalm3535.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9372A393E340072552C /* Psalm3535.wav */; };
+		6E9CB93A2A393E340072552C /* Psalm3535.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9372A393E340072552C /* Psalm3535.wav */; };
+		6E9CB93C2A393E410072552C /* Psalm4848.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB93B2A393E410072552C /* Psalm4848.wav */; };
+		6E9CB93D2A393E410072552C /* Psalm4848.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB93B2A393E410072552C /* Psalm4848.wav */; };
+		6E9CB93E2A393E410072552C /* Psalm4848.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB93B2A393E410072552C /* Psalm4848.wav */; };
+		6E9CB9402A393E520072552C /* Psalm710710.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB93F2A393E520072552C /* Psalm710710.wav */; };
+		6E9CB9412A393E520072552C /* Psalm710710.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB93F2A393E520072552C /* Psalm710710.wav */; };
+		6E9CB9422A393E520072552C /* Psalm710710.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB93F2A393E520072552C /* Psalm710710.wav */; };
+		6E9CB9442A393E620072552C /* Romans83839.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9432A393E610072552C /* Romans83839.wav */; };
+		6E9CB9452A393E620072552C /* Romans83839.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9432A393E610072552C /* Romans83839.wav */; };
+		6E9CB9462A393E620072552C /* Romans83839.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9432A393E610072552C /* Romans83839.wav */; };
+		6E9CB9482A393E700072552C /* Romans15131513.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9472A393E700072552C /* Romans15131513.wav */; };
+		6E9CB9492A393E700072552C /* Romans15131513.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9472A393E700072552C /* Romans15131513.wav */; };
+		6E9CB94A2A393E700072552C /* Romans15131513.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9472A393E700072552C /* Romans15131513.wav */; };
+		6E9CB94C2A393E7E0072552C /* Thessalonians223333.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB94B2A393E7D0072552C /* Thessalonians223333.wav */; };
+		6E9CB94D2A393E7E0072552C /* Thessalonians223333.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB94B2A393E7D0072552C /* Thessalonians223333.wav */; };
+		6E9CB94E2A393E7E0072552C /* Thessalonians223333.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB94B2A393E7D0072552C /* Thessalonians223333.wav */; };
+		6E9CB9502A393E8C0072552C /* Timothy221717.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB94F2A393E8C0072552C /* Timothy221717.wav */; };
+		6E9CB9512A393E8C0072552C /* Timothy221717.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB94F2A393E8C0072552C /* Timothy221717.wav */; };
+		6E9CB9522A393E8C0072552C /* Timothy221717.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB94F2A393E8C0072552C /* Timothy221717.wav */; };
+		6E9CB9542A393E9C0072552C /* Zephaniah317317.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9532A393E9B0072552C /* Zephaniah317317.wav */; };
+		6E9CB9552A393E9C0072552C /* Zephaniah317317.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9532A393E9B0072552C /* Zephaniah317317.wav */; };
+		6E9CB9562A393E9C0072552C /* Zephaniah317317.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CB9532A393E9B0072552C /* Zephaniah317317.wav */; };
 		6EB80F9E2A2AEADA00F7FD61 /* BreathPrayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB80F9D2A2AEADA00F7FD61 /* BreathPrayerApp.swift */; };
 		6EB80FA02A2AEADA00F7FD61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB80F9F2A2AEADA00F7FD61 /* ContentView.swift */; };
 		6EB80FA22A2AEADE00F7FD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB80FA12A2AEADE00F7FD61 /* Assets.xcassets */; };
@@ -67,6 +130,27 @@
 		6E9CB8F72A393D030072552C /* Infointro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Infointro.wav; path = ../../../BreathPrayerFiles/Infointro.wav; sourceTree = "<group>"; };
 		6E9CB8FB2A393D120072552C /* Jeremiah29112911.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Jeremiah29112911.wav; path = ../../../BreathPrayerFiles/Jeremiah29112911.wav; sourceTree = "<group>"; };
 		6E9CB8FF2A393D260072552C /* John418418.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = John418418.wav; path = ../../../BreathPrayerFiles/John418418.wav; sourceTree = "<group>"; };
+		6E9CB9032A393D5A0072552C /* Joshua1919.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Joshua1919.wav; path = ../../../BreathPrayerFiles/Joshua1919.wav; sourceTree = "<group>"; };
+		6E9CB9072A393D690072552C /* Lamentations32223.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Lamentations32223.wav; path = ../../../BreathPrayerFiles/Lamentations32223.wav; sourceTree = "<group>"; };
+		6E9CB90B2A393D7D0072552C /* Mark924924.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mark924924.wav; sourceTree = "<group>"; };
+		6E9CB90F2A393D900072552C /* Mark10271027.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mark10271027.wav; sourceTree = "<group>"; };
+		6E9CB9132A393DA50072552C /* Matthew6868.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Matthew6868.wav; sourceTree = "<group>"; };
+		6E9CB9172A393DB70072552C /* Matthew11281128.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Matthew11281128.wav; sourceTree = "<group>"; };
+		6E9CB91B2A393DCC0072552C /* Peter5757.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Peter5757.wav; sourceTree = "<group>"; };
+		6E9CB91F2A393DDE0072552C /* Philippians4848.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Philippians4848.wav; sourceTree = "<group>"; };
+		6E9CB9232A393DED0072552C /* Philippians47471.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Philippians47471.wav; sourceTree = "<group>"; };
+		6E9CB9272A393DFE0072552C /* Philippians47472.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Philippians47472.wav; sourceTree = "<group>"; };
+		6E9CB92B2A393E0D0072552C /* Philippians413413.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Philippians413413.wav; sourceTree = "<group>"; };
+		6E9CB92F2A393E1A0072552C /* Psalm1689.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Psalm1689.wav; path = ../../../BreathPrayerFiles/Psalm1689.wav; sourceTree = "<group>"; };
+		6E9CB9332A393E270072552C /* Psalm3333.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Psalm3333.wav; path = ../../../BreathPrayerFiles/Psalm3333.wav; sourceTree = "<group>"; };
+		6E9CB9372A393E340072552C /* Psalm3535.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Psalm3535.wav; path = ../../../BreathPrayerFiles/Psalm3535.wav; sourceTree = "<group>"; };
+		6E9CB93B2A393E410072552C /* Psalm4848.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Psalm4848.wav; path = ../../../BreathPrayerFiles/Psalm4848.wav; sourceTree = "<group>"; };
+		6E9CB93F2A393E520072552C /* Psalm710710.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Psalm710710.wav; path = ../../../BreathPrayerFiles/Psalm710710.wav; sourceTree = "<group>"; };
+		6E9CB9432A393E610072552C /* Romans83839.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Romans83839.wav; sourceTree = "<group>"; };
+		6E9CB9472A393E700072552C /* Romans15131513.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Romans15131513.wav; sourceTree = "<group>"; };
+		6E9CB94B2A393E7D0072552C /* Thessalonians223333.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Thessalonians223333.wav; sourceTree = "<group>"; };
+		6E9CB94F2A393E8C0072552C /* Timothy221717.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Timothy221717.wav; sourceTree = "<group>"; };
+		6E9CB9532A393E9B0072552C /* Zephaniah317317.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Zephaniah317317.wav; path = ../../../BreathPrayerFiles/Zephaniah317317.wav; sourceTree = "<group>"; };
 		6EB80F9A2A2AEADA00F7FD61 /* BreathPrayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathPrayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB80F9D2A2AEADA00F7FD61 /* BreathPrayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathPrayerApp.swift; sourceTree = "<group>"; };
 		6EB80F9F2A2AEADA00F7FD61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,8 +260,29 @@
 				6E9CB8EF2A393CE50072552C /* Corinthians212910.wav */,
 				6E9CB8F32A393CF40072552C /* Hebrews10231023.wav */,
 				6E9CB8F72A393D030072552C /* Infointro.wav */,
+				6E9CB9432A393E610072552C /* Romans83839.wav */,
+				6E9CB9532A393E9B0072552C /* Zephaniah317317.wav */,
+				6E9CB94F2A393E8C0072552C /* Timothy221717.wav */,
+				6E9CB94B2A393E7D0072552C /* Thessalonians223333.wav */,
+				6E9CB9472A393E700072552C /* Romans15131513.wav */,
+				6E9CB93B2A393E410072552C /* Psalm4848.wav */,
+				6E9CB93F2A393E520072552C /* Psalm710710.wav */,
+				6E9CB92B2A393E0D0072552C /* Philippians413413.wav */,
+				6E9CB9372A393E340072552C /* Psalm3535.wav */,
+				6E9CB9332A393E270072552C /* Psalm3333.wav */,
+				6E9CB92F2A393E1A0072552C /* Psalm1689.wav */,
 				6E9CB8FB2A393D120072552C /* Jeremiah29112911.wav */,
+				6E9CB9272A393DFE0072552C /* Philippians47472.wav */,
+				6E9CB9232A393DED0072552C /* Philippians47471.wav */,
 				6E9CB8FF2A393D260072552C /* John418418.wav */,
+				6E9CB9032A393D5A0072552C /* Joshua1919.wav */,
+				6E9CB9072A393D690072552C /* Lamentations32223.wav */,
+				6E9CB90B2A393D7D0072552C /* Mark924924.wav */,
+				6E9CB90F2A393D900072552C /* Mark10271027.wav */,
+				6E9CB9132A393DA50072552C /* Matthew6868.wav */,
+				6E9CB9172A393DB70072552C /* Matthew11281128.wav */,
+				6E9CB91B2A393DCC0072552C /* Peter5757.wav */,
+				6E9CB91F2A393DDE0072552C /* Philippians4848.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -292,15 +397,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9CB9242A393DED0072552C /* Philippians47471.wav in Resources */,
 				6E9CB9002A393D260072552C /* John418418.wav in Resources */,
+				6E9CB9202A393DDE0072552C /* Philippians4848.wav in Resources */,
+				6E9CB91C2A393DCC0072552C /* Peter5757.wav in Resources */,
 				6E9CB8EC2A393CD50072552C /* Corinthians25757.wav in Resources */,
 				6EB80FA52A2AEADE00F7FD61 /* Preview Assets.xcassets in Resources */,
 				6E9CB8E82A393CBC0072552C /* Chronicles2309309.wav in Resources */,
+				6E9CB9402A393E520072552C /* Psalm710710.wav in Resources */,
 				6E9CB8F42A393CF40072552C /* Hebrews10231023.wav in Resources */,
+				6E9CB9142A393DA50072552C /* Matthew6868.wav in Resources */,
 				6EB80FA22A2AEADE00F7FD61 /* Assets.xcassets in Resources */,
+				6E9CB9542A393E9C0072552C /* Zephaniah317317.wav in Resources */,
+				6E9CB9302A393E1A0072552C /* Psalm1689.wav in Resources */,
+				6E9CB9502A393E8C0072552C /* Timothy221717.wav in Resources */,
 				6E9CB8F82A393D030072552C /* Infointro.wav in Resources */,
+				6E9CB90C2A393D7D0072552C /* Mark924924.wav in Resources */,
 				6E9CB8F02A393CE50072552C /* Corinthians212910.wav in Resources */,
+				6E9CB93C2A393E410072552C /* Psalm4848.wav in Resources */,
+				6E9CB9102A393D900072552C /* Mark10271027.wav in Resources */,
+				6E9CB9042A393D5A0072552C /* Joshua1919.wav in Resources */,
+				6E9CB9342A393E270072552C /* Psalm3333.wav in Resources */,
 				6E9CB8FC2A393D120072552C /* Jeremiah29112911.wav in Resources */,
+				6E9CB9482A393E700072552C /* Romans15131513.wav in Resources */,
+				6E9CB9442A393E620072552C /* Romans83839.wav in Resources */,
+				6E9CB9382A393E340072552C /* Psalm3535.wav in Resources */,
+				6E9CB94C2A393E7E0072552C /* Thessalonians223333.wav in Resources */,
+				6E9CB9182A393DB70072552C /* Matthew11281128.wav in Resources */,
+				6E9CB9282A393DFE0072552C /* Philippians47472.wav in Resources */,
+				6E9CB92C2A393E0D0072552C /* Philippians413413.wav in Resources */,
+				6E9CB9082A393D690072552C /* Lamentations32223.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +434,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9CB9112A393D900072552C /* Mark10271027.wav in Resources */,
+				6E9CB9552A393E9C0072552C /* Zephaniah317317.wav in Resources */,
+				6E9CB9512A393E8C0072552C /* Timothy221717.wav in Resources */,
+				6E9CB9052A393D5A0072552C /* Joshua1919.wav in Resources */,
+				6E9CB93D2A393E410072552C /* Psalm4848.wav in Resources */,
+				6E9CB94D2A393E7E0072552C /* Thessalonians223333.wav in Resources */,
 				6E9CB9012A393D260072552C /* John418418.wav in Resources */,
 				6E9CB8F12A393CE50072552C /* Corinthians212910.wav in Resources */,
+				6E9CB9212A393DDE0072552C /* Philippians4848.wav in Resources */,
 				6E9CB8F92A393D030072552C /* Infointro.wav in Resources */,
+				6E9CB91D2A393DCC0072552C /* Peter5757.wav in Resources */,
+				6E9CB9292A393DFE0072552C /* Philippians47472.wav in Resources */,
+				6E9CB9152A393DA50072552C /* Matthew6868.wav in Resources */,
+				6E9CB9392A393E340072552C /* Psalm3535.wav in Resources */,
+				6E9CB9252A393DED0072552C /* Philippians47471.wav in Resources */,
+				6E9CB9352A393E270072552C /* Psalm3333.wav in Resources */,
 				6E9CB8ED2A393CD50072552C /* Corinthians25757.wav in Resources */,
+				6E9CB9412A393E520072552C /* Psalm710710.wav in Resources */,
+				6E9CB9492A393E700072552C /* Romans15131513.wav in Resources */,
+				6E9CB9192A393DB70072552C /* Matthew11281128.wav in Resources */,
 				6E9CB8FD2A393D120072552C /* Jeremiah29112911.wav in Resources */,
 				6E9CB8E92A393CBC0072552C /* Chronicles2309309.wav in Resources */,
+				6E9CB9452A393E620072552C /* Romans83839.wav in Resources */,
+				6E9CB92D2A393E0D0072552C /* Philippians413413.wav in Resources */,
+				6E9CB90D2A393D7D0072552C /* Mark924924.wav in Resources */,
+				6E9CB9092A393D690072552C /* Lamentations32223.wav in Resources */,
+				6E9CB9312A393E1A0072552C /* Psalm1689.wav in Resources */,
 				6E9CB8F52A393CF40072552C /* Hebrews10231023.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,12 +469,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9CB9122A393D900072552C /* Mark10271027.wav in Resources */,
+				6E9CB9562A393E9C0072552C /* Zephaniah317317.wav in Resources */,
+				6E9CB9522A393E8C0072552C /* Timothy221717.wav in Resources */,
+				6E9CB9062A393D5A0072552C /* Joshua1919.wav in Resources */,
+				6E9CB93E2A393E410072552C /* Psalm4848.wav in Resources */,
+				6E9CB94E2A393E7E0072552C /* Thessalonians223333.wav in Resources */,
 				6E9CB9022A393D260072552C /* John418418.wav in Resources */,
 				6E9CB8F22A393CE50072552C /* Corinthians212910.wav in Resources */,
+				6E9CB9222A393DDE0072552C /* Philippians4848.wav in Resources */,
 				6E9CB8FA2A393D030072552C /* Infointro.wav in Resources */,
+				6E9CB91E2A393DCC0072552C /* Peter5757.wav in Resources */,
+				6E9CB92A2A393DFE0072552C /* Philippians47472.wav in Resources */,
+				6E9CB9162A393DA50072552C /* Matthew6868.wav in Resources */,
+				6E9CB93A2A393E340072552C /* Psalm3535.wav in Resources */,
+				6E9CB9262A393DED0072552C /* Philippians47471.wav in Resources */,
+				6E9CB9362A393E270072552C /* Psalm3333.wav in Resources */,
 				6E9CB8EE2A393CD50072552C /* Corinthians25757.wav in Resources */,
+				6E9CB9422A393E520072552C /* Psalm710710.wav in Resources */,
+				6E9CB94A2A393E700072552C /* Romans15131513.wav in Resources */,
+				6E9CB91A2A393DB70072552C /* Matthew11281128.wav in Resources */,
 				6E9CB8FE2A393D120072552C /* Jeremiah29112911.wav in Resources */,
 				6E9CB8EA2A393CBC0072552C /* Chronicles2309309.wav in Resources */,
+				6E9CB9462A393E620072552C /* Romans83839.wav in Resources */,
+				6E9CB92E2A393E0D0072552C /* Philippians413413.wav in Resources */,
+				6E9CB90E2A393D7D0072552C /* Mark924924.wav in Resources */,
+				6E9CB90A2A393D690072552C /* Lamentations32223.wav in Resources */,
+				6E9CB9322A393E1A0072552C /* Psalm1689.wav in Resources */,
 				6E9CB8F62A393CF40072552C /* Hebrews10231023.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
