@@ -166,8 +166,10 @@ struct Notes: View {
         
         VStack{
             Text("App Instructions").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Image("Silent")
+            Text("(Turn on volume)")
+                .font(.subheadline).padding(.horizontal, 16).foregroundColor(.gray).padding(.bottom)
             
-
             Button {
                 //MARK: Add the meditation player screen
                 playSound(sound: "Infointro", type: "wav")
