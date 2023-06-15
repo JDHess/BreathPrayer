@@ -166,7 +166,7 @@ struct Notes: View {
         
         VStack{
             Text("App Instructions").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
-            Image("Silent")
+            Image("Silent").resizable().frame(width: 300).scaledToFit()
             Text("(Turn on volume)")
                 .font(.subheadline).padding(.horizontal, 16).foregroundColor(.gray).padding(.bottom)
             
@@ -177,7 +177,7 @@ struct Notes: View {
             } label: {
                 Label("Play", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -208,8 +208,19 @@ struct Joshua1919: View {
         VStack{
             
             
-            Text("Joshua 1:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            
+
+            Text("I will be courageous")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And not discouraged")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You are with me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Wherever I go")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Joshua 1:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
 //Done
+            
             Button {
                 //MARK: Add the meditation player screen
                 playSound(sound: "Joshua1919", type: "wav")
@@ -217,7 +228,7 @@ struct Joshua1919: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -230,7 +241,16 @@ struct Chronicles2309309: View {
     var body: some View{
         
         VStack{
-            Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("You are gracious")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And Merciful")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You won't turn away")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("When I turn to You")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("2 Chronicles 30:9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -241,7 +261,7 @@ struct Chronicles2309309: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -251,7 +271,15 @@ struct Psalm3333: View {
     var body: some View{
         VStack{
             
-            Text("Psalm 3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("You, oh Lord")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Are a shield")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And the lifter")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Of my head")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Psalm 3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -262,14 +290,23 @@ struct Psalm3333: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
 struct Psalm3535: View {
     var body: some View{
         VStack{
-            Text("Psalm 3:5").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("I lay down")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And sleep")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("I wake again")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Because You sustain me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Psalm 3:5").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -279,7 +316,7 @@ struct Psalm3535: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -287,7 +324,16 @@ struct Psalm3535: View {
 struct Psalm4848: View {
     var body: some View{
         VStack{
-            Text("Psalm 4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("I lie down")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And sleep")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("For You alone")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Will keep me safe Lord")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Psalm 4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         //Done
             Button {
@@ -296,7 +342,7 @@ struct Psalm4848: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -304,7 +350,15 @@ struct Psalm4848: View {
 struct Psalm710710: View {
     var body: some View{
         VStack{
-            Text("Psalm 7:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("My shield")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Is with You")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Who saves")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("The upright heart")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Psalm 7:10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -314,7 +368,7 @@ struct Psalm710710: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -322,7 +376,20 @@ struct Psalm710710: View {
 struct Psalm1689: View {
     var body: some View{
         VStack{
-            Text("Psalm 16:8-9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("You are always")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("With me Lord")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("I will not be shaken")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("When you are beside me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("I rejoice")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And rest in saftey")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Psalm 16:8-9").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -332,7 +399,7 @@ struct Psalm1689: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 400)
         
     }
 }
@@ -346,7 +413,16 @@ struct Jeremiah29112911: View {
     var body: some View{
         
         VStack{
-            Text("Jeremiah 29:11").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("I trust the plans")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You, have for me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You give me hope")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And a future")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Jeremiah 29:11").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
 //Done
             Button {
@@ -356,7 +432,7 @@ struct Jeremiah29112911: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -369,7 +445,24 @@ struct Lamentations32223: View {
     var body: some View{
         
         VStack{
-            Text("Lamentations 3:22-23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("Your steadfast love")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Never stops")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Your mercies")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Never end")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("They are new")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Every morning")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Great is")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Your faithfulness")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Lamentations 3:22-23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -380,7 +473,7 @@ struct Lamentations32223: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 500)
         
     }
 }
@@ -392,7 +485,16 @@ struct Zephaniah317317: View {
     var body: some View{
         
         VStack{
-            Text("Zephaniah 3:17").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("With Your love")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You calm my fears")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You rejoice over me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("With joyful songs")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Zephaniah 3:17").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -403,7 +505,7 @@ struct Zephaniah317317: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -414,7 +516,12 @@ struct Matthew6868: View {
     var body: some View{
         
         VStack{
-            Text("Matthew 6:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("You know everything I need")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Before I ask")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Matthew 6:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
 //Done
             Button {
@@ -424,7 +531,7 @@ struct Matthew6868: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 200)
         
     }
 }
@@ -435,7 +542,16 @@ struct Matthew11281128: View {
     var body: some View{
         
         VStack{
-            Text("Matthew 11:28").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("I give you")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("My burdens")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And you give me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Rest")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Matthew 11:28").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -446,7 +562,7 @@ struct Matthew11281128: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -459,7 +575,11 @@ struct Mark924924: View {
     var body: some View{
         
         VStack{
-            Text("Mark 9:24").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("Lord I believe")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Help my unbelief")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Mark 9:24").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -470,7 +590,7 @@ struct Mark924924: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 200)
         
     }
 }
@@ -481,7 +601,12 @@ struct Mark10271027: View {
     var body: some View{
         
         VStack{
-            Text("Mark 10:27").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("With You")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("All things are possible")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Mark 10:27").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
 //Done
             Button {
@@ -491,7 +616,7 @@ struct Mark10271027: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 200)
         
     }
 }
@@ -503,7 +628,15 @@ struct Romans83839: View {
     var body: some View{
         
         VStack{
-            Text("Romans 8:38-39").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("Nothing")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Can separate")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("From Your love")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Romans 8:38-39").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -514,7 +647,7 @@ struct Romans83839: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -525,7 +658,15 @@ struct Romans15131513: View {
     var body: some View{
         
         VStack{
-            Text("Romans 15:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("God of hope")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("I trust you")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Fill me with joy")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And peace")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Romans 15:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -536,7 +677,7 @@ struct Romans15131513: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -547,9 +688,16 @@ struct Corinthians25757: View {
     var body: some View{
         
         VStack{
+            Text("Help me live")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("By faith")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And not")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("By sight")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
             
-            
-            Text("2 Corinthians 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("2 Corinthians 5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
 //Done
             Button {
                 //MARK: Add the meditation player screen
@@ -558,7 +706,7 @@ struct Corinthians25757: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -568,9 +716,20 @@ struct Corinthians212910: View {
     var body: some View{
         
         VStack{
+            Text("Your grace is all")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("That I need")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Your power works")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Best in my weakness")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("When I am weak")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You make me strong")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
             
-            
-            Text("2 Corinthians 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("2 Corinthians 12:9-10").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
 //Done
             Button {
                 //MARK: Add the meditation player screen
@@ -579,7 +738,7 @@ struct Corinthians212910: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 500)
         
     }
 }
@@ -590,7 +749,16 @@ struct Philippians47471: View {
     var body: some View{
         
         VStack{
-            Text("Philippians  4:7 (Version 1)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("Your peace")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Will guard")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("My heart")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And mind")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Philippians  4:7 (Version 1)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -601,7 +769,7 @@ struct Philippians47471: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -611,7 +779,16 @@ struct Philippians47472: View {
     var body: some View{
         
         VStack{
-            Text("Philippians  4:7 (Version 2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("Guard my heart")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And mind")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("With Your")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Indescribable peace")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Philippians  4:7 (Version 2)").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -622,7 +799,7 @@ struct Philippians47472: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -632,7 +809,24 @@ struct Philippians4848: View {
     var body: some View{
         
         VStack{
-            Text("Philippians  4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("Turn my thoughts")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("To what is right")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And true")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Nobel and lovely")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And pure")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Admirable")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And worthy")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Of praise")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Philippians  4:8").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -643,7 +837,7 @@ struct Philippians4848: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 450)
         
     }
 }
@@ -652,7 +846,16 @@ struct Philippians413413: View {
     var body: some View{
         
         VStack{
-            Text("Philippians  4:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("I can do all things")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Through Christ")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Who gives")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Me strength")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("Philippians  4:13").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -663,7 +866,7 @@ struct Philippians413413: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -674,7 +877,16 @@ struct Thessalonians223333: View {
     var body: some View{
         
         VStack{
-            Text("2 Thessalonians  3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("You are faithful")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You will give me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Strength")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And protect me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("2 Thessalonians  3:3").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
 //Done
             Button {
@@ -684,7 +896,7 @@ struct Thessalonians223333: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -695,7 +907,17 @@ struct Timothy221717: View {
     var body: some View{
         
         VStack{
-            Text("2 Timothy  1:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("You do not give me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("A spirit of fear")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("But of power")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("Love and self control")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            
+            Text("2 Timothy  1:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 //Done
@@ -706,7 +928,7 @@ struct Timothy221717: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -718,7 +940,17 @@ struct Hebrews10231023: View {
     var body: some View{
         
         VStack{
-            Text("Hebrews  10:23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("I hold on tight")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("To my hope in Your")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("You can be trusted")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("To keep your promise")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            
+            Text("Hebrews  10:23").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
             Button {
                 //MARK: Add the meditation player screen
@@ -727,7 +959,7 @@ struct Hebrews10231023: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -737,7 +969,16 @@ struct Peter5757: View {
     var body: some View{
         
         VStack{
-            Text("1 Peter  5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            Text("I give You my worries")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("And cares")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("For You care")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("About me")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            
+            Text("1 Peter  5:7").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
 
             Button {
@@ -747,7 +988,7 @@ struct Peter5757: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
@@ -759,8 +1000,13 @@ struct John418418: View {
     var body: some View{
         
         VStack{
+            Text("There is no fear")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
+            Text("In Your love")
+                    .font(.subheadline).padding(.top, 4).padding(.horizontal, 16).foregroundColor(.gray)
             
-            Text("1 John  4:18").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black)
+            
+            Text("1 John  4:18").font(.title2).fontWeight(.semibold).padding(.horizontal, 16).foregroundColor(.black).padding(.vertical, 4)
             
         
 
@@ -771,7 +1017,7 @@ struct John418418: View {
             } label: {
                 Label("Pray", systemImage: "play.circle").font(.headline).foregroundColor(.white).padding(.vertical, 10).frame(maxWidth: .infinity).background(.black)
             }
-        }.background(Color.white).frame(width: 300, height: 150)
+        }.background(Color.white).frame(width: 300, height: 300)
         
     }
 }
